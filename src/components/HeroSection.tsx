@@ -64,17 +64,18 @@ const HeroSection = () => {
                 className="glow-primary hover:glow-primary transition-smooth px-8 py-3"
               >
                 Hire Me
-              <a href="/Mahmoud-Chebil_Cv.pdf" download>
-  		<Button
-   		 variant="outline"
-    			size="lg"
-    			className="px-8 py-3"
- 					 >
-   			 <Download className="w-4 h-4 mr-2" />
-   				 Download CV
- 			 </Button>
-			</a>
+              </Button>
 
+              <a href="/Mahmoud-Chebil_Cv.pdf" download>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="px-8 py-3"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Download CV
+                </Button>
+              </a>
             </div>
 
             {/* Social Links */}
@@ -132,3 +133,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
